@@ -31,15 +31,30 @@
 // $users["name"]="John";
 // $users["age"]=12;
 // $users["login"]="John_89";
-$user=["name"=>"Jonibek","age"=>16, "heigh"=>180,"color"=>"bugdoy rang"];
 
+
+
+/*$user=["name"=>"Jonibek","age"=>16, "heigh"=>180,"color"=>"bugdoy rang"];
+$user["moneyyy"]="No";
 $user["weigt"]="65";
 
 // print_r($users); 
 foreach($user as $a=>$b){
         echo $a."=".$b."<br>";
-}
+}*/
 
+/*$cars = array("nexia", "gentra", "cobalt");
+
+//print_r($cars);
+ 
+ echo ($cars)[0]*/
+ 
+
+   $user =["name"=>"jonibek," "email"="example.com", "password"="jonibek01"];
+
+ $key="name";
+ 
+array-key_exists($key,$user);
 
 
 
