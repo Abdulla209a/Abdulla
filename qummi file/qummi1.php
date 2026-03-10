@@ -6,13 +6,16 @@ class A {
 }
 
 class B {
-  public function message() {
+  public static function message() {
     A::hey();
   }
 }
 
 $hi = new B();
 echo $hi -> message();
+echo "<br>";
+echo A::hey();
+
+
+
 ?>
-
-

@@ -6,7 +6,11 @@ class Qummi{
     public static $class=10;
     public static $school=46;
     public static function multiply(){
-        return $name+$class+$school;
+        
+        
+        
+        return self::$name*self::$class*self::$school;
+
     }
 
      
@@ -19,8 +23,8 @@ class Baqqu extends Qummi{
 }
 
 
-
-
+echo round( Baqqu::multiply());
+echo "<br>";
 echo Baqqu::$name;
 echo "<br>";
 echo Baqqu::$age;
