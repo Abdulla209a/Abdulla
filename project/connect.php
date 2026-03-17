@@ -1,5 +1,4 @@
 <?php
-session_start();
 $server="localhost";
 $user="root";
 $password="";
@@ -10,13 +9,4 @@ $conn=new mysqli($server,$user,$password,$db);
 if($conn->connect_error){
     die("xatolik " . $conn->connect_error);
 }
-
-
-
-
-
-
-
-
-
 ?>
